@@ -24,10 +24,11 @@ test_year_start = "2021-01-01",
 test_year_end = "2021-12-31",
 use_shorts = FALSE)
 ```
-
+```
 #   Ticker    Weight
 # 1   AMZN 0.0000000
 # 2  GOOGL 0.6017229
 # 3   MSFT 0.2802644
 # 4   WKHS 0.1180127
 # portfolio return for test year: 0.4841054 portfolio standard deviation: 0.05848876
+```
