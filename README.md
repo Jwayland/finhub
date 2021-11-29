@@ -55,7 +55,7 @@ use_shorts = FALSE)
 * `pmrp` - Market Risk Premium (preferred stock) 
 * `coupon_rate` - Market Rate of New Debt (coupon rate)
 
-Using these inputs, `wacc` will return the weighted average cost of capital for the firm. It automatically calculates the weight of debt and equity through common stock, preferred stock, and book value of loans. The only difference between this function and typical weighted average cost of capital calculations is this function will calculate rate on equity using an average of both the dividend discount model `DDM` and the capital asset pricing model `CAPM`.
+Using these inputs, `wacc` will return the weighted average cost of capital for the firm. It automatically calculates the weight of debt and equity through common stock, preferred stock, and book value of loans. The only difference between this function and typical weighted average cost of capital calculations is this function will calculate rate on equity using an average of both the dividend discount model `DDM` and the capital asset pricing model `CAPM`. (Automation of some parameters through web scraping is currently in progress. Returning values using the input option of choosing `DDM`, `CAPM`, or an average of both is currently in progress)
 
 ### Examples
 
