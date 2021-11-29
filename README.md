@@ -38,7 +38,7 @@ use_shorts = FALSE)
 
 ## `wacc`
 
-**Description:** The Weighted Average Cost of Capital `wacc` can be used as the companies required rate of Return for decisions regarding future capital expenditures using the following parameters:
+**Description:** The Weighted Average Cost of Capital `wacc` can be used as the companies required rate of return for decisions regarding future capital expenditures using the following parameters:
 
 * `TC` - Corporate Tax Rate
 * `coutstanding_shares` - Common Stock Outstanding Shares
@@ -85,5 +85,5 @@ coupon_rate = .0395
 )
 ```
 ```
-# The Firm's WWAC is 0.04790951
+# The Firm's Weighted Average Cost of Capital (WWAC) is: 0.04790951
 ```

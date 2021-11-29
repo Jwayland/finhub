@@ -82,5 +82,5 @@ wacc <- function(TC,
   RD <- coupon_rate
   #calculating the weighted average cost of capital for the firm
   weighted_average_cc <- (WE*RE)+(WD*(RD*(1-TC))+(WP*RP))
-  cat("The Firm's WWAC is:", weighted_average_cc)
+  cat("The Firm's Weighted Average Cost of Capital (WWAC) is:", weighted_average_cc)
 }
