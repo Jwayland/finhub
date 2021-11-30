@@ -1,5 +1,5 @@
 # finhub
-R Package for finaicial analysis
+R Package for financial analysis
 
 To install `finhub`, use the following command:
 `devtools::install_github("jwayland/finhub")`
@@ -85,5 +85,5 @@ coupon_rate = .0395
 )
 ```
 ```
-# The Firm's Weighted Average Cost of Capital (WWAC) is: 0.04790951
+# The Firm's Weighted Average Cost of Capital (WACC) is: 0.04790951
 ```
