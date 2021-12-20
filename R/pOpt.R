@@ -34,6 +34,7 @@ pOpt <- function(my_portfolio,
     # Pull data for tickers
     for(i in 1:length(my_portfolio)){
       getSymbols(my_portfolio[i], src="yahoo", from = hist_ret_start, to = hist_ret_end)
+      Sys.sleep(runif(1, min=1, max=3))
     }
     # Creating the log_returns data.frame
     log_returns <- data.frame(SYMBOL = as.character(), RETURN = as.numeric())
