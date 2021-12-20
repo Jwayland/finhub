@@ -12,12 +12,13 @@
 #' @export
 #'
 #' @examples 
-#' pOpt(my_portfolio = c("WKHS", "MSFT", "AMZN", "GOOGL"),
-#' hist_ret_start = "2012-01-01",
+#' pOpt(my_portfolio = c("NVDA", "MSFT", "GOOGL", "FB", "DIS", "HD", "JPM"),
+#' hist_ret_start = "2014-01-01",
 #' hist_ret_end = "2018-12-31",
-#' test_year_start = "2021-01-01",
-#' test_year_end = "2021-12-31",
-#' use_shorts = FALSE)
+#' test_year_start = "2019-01-01",
+#' test_year_end = "2019-12-31",
+#' use_shorts = TRUE)
+
 pOpt <- function(my_portfolio,
                  hist_ret_start,
                  hist_ret_end,

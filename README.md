@@ -20,20 +20,23 @@ Using these inputs, `pOpt` will return the optimal portfolio by weight of ticker
 ### Examples
 
 ```
-pOpt(my_portfolio = c("WKHS", "MSFT", "AMZN", "GOOGL"),
-hist_ret_start = "2012-01-01",
+pOpt(my_portfolio = c("NVDA", "MSFT", "GOOGL", "FB", "DIS", "HD", "JPM"),
+hist_ret_start = "2014-01-01",
 hist_ret_end = "2018-12-31",
-test_year_start = "2021-01-01",
-test_year_end = "2021-12-31",
-use_shorts = FALSE)
+test_year_start = "2019-01-01",
+test_year_end = "2019-12-31",
+use_shorts = TRUE)
 ```
 ```
-#   Ticker    Weight
-# 1   AMZN 0.0000000
-# 2  GOOGL 0.6017229
-# 3   MSFT 0.2802644
-# 4   WKHS 0.1180127
-# portfolio return for test year: 0.4841054 portfolio standard deviation: 0.05848876
+#  Ticker      Weight
+#1    DIS  0.21685568
+#2     FB  0.21533424
+#3  GOOGL  0.14649657
+#4     HD  0.19430828
+#5    JPM  0.24553358
+#6   MSFT  0.04716829
+#7   NVDA -0.06569666
+#portfolio return for test year: 0.3672531 portfolio standard deviation: 0.03774101
 ```
 
 ## `wacc`
